@@ -8,8 +8,8 @@ import collections
 # Define the input and output settings
 INPUT_FILENAME = 'country_full.csv'
 OUTPUT_DIR = 'regions_output' # Directory to store the split files
-COUNTRY_FIELD = 'Country Name' # Assuming the column header for country name
-REGION_FIELD = 'Region'       # Assuming the column header for region
+COUNTRY_FIELD = 'name' # Assuming the column header for country name
+REGION_FIELD = 'region'       # Assuming the column header for region
 
 def split_csv_by_region(input_file, output_directory, country_key, region_key):
     """
